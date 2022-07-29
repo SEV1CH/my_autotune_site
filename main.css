@@ -584,14 +584,14 @@ a {
   margin-right: 0;
 }
 
-.ourteam {
+.ourcustomers {
   background-color: rgb(37, 37, 37);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.ourteam__topic {
+.ourcustomers__topic {
   padding-bottom: 50px;
   padding-top: 50px;
   max-width: 500px;
@@ -610,14 +610,14 @@ a {
   height: 800px;
 }
 
-.employees {
+.customers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: auto 0;
 }
 
-.employees__item {
+.customers__item {
   height: 428px;
   width: 270px;
   background-color: #212121;
@@ -632,21 +632,21 @@ a {
   box-shadow:#00000079 0px 0px 20px;
 }
 
-.employees__item:hover{
+.customers__item:hover{
   transform: scale(1.05);
   transition: 0.2s;
 }
 
-.employees__item:last-child {
+.customers__item:last-child {
   margin-right: 0;
 }
 
-.employees__item > img {
+.customers__item > img {
   border-radius: 10px;
   max-width: 270px;
 }
 
-.employees__item > h1 {
+.customers__item > h1 {
   margin-left: 0px;
   margin-top: 30px;
   font-family: 'myFirstFont';
@@ -659,7 +659,7 @@ a {
   color: #e8d58c;
 }
 
-.employees__item > p {
+.customers__item > p {
   margin-top: 10px;
   font-family: 'myThirdFont';
   font-style: normal;
@@ -746,7 +746,7 @@ a {
   display: block;
 }
 
-.h1reg {
+.sponsors_h1 {
   background-color: rgb(37, 37, 37);
   color: #e8d58c;
   text-align: center;
@@ -754,7 +754,7 @@ a {
   font-size: 36px;
 }
 
-.regularcustomers {
+.oursponsors {
   background-color: #e8d58c;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -764,7 +764,7 @@ a {
   padding-bottom: 20px;
 }
 
-.regularcustomers h1 {
+.oursponsors h1 {
   font-family: 'mySecondFont';
   font-style: normal;
   font-weight: bold;
@@ -776,14 +776,14 @@ a {
   max-width: 391px;
 }
 
-.customers h1 {
+.sponsors h1 {
   text-align: center;
   margin: 0 auto;
   padding-top: 30px;
   margin-bottom: 30px;
 }
 
-.customers__list {
+.sponsors__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -792,16 +792,16 @@ a {
   padding-bottom: 10px;
 }
 
-.customers__list li:not(:last-child) {
+.sponsors__list li:not(:last-child) {
   margin-right: 30px;
 }
 
-.customers__icon:hover {
+.sponsors__icon:hover {
   fill: #e8d58c;
   border: 1px solid #e8d58c;
 }
 
-.customers .item {
+.sponsors .item {
   text-align: center;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
