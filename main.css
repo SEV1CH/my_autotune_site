@@ -6,7 +6,7 @@
   border-radius: 4px;
 }
 main{
-  background-color: #212121;
+  background-color: #252525;
 }
 
 @font-face {
@@ -430,7 +430,7 @@ a {
   background-color: #e8d58c;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 15px;
   
   margin: 0 auto;
   margin-top: 30px;
@@ -461,7 +461,7 @@ a {
 }
 .privileges {
   background-color: #272727;
-  height: 550px;
+  height: 500px;
   padding-top: 1px;
 }
 
@@ -487,7 +487,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
-  margin-top: 94px;
+  margin-top: 60px;
 }
 
 .property__item:nth-child(1)::before {
@@ -607,6 +607,7 @@ a {
 }
 
 .jscontent {
+  background-color: #212121;
   height: 800px;
 }
 
@@ -762,6 +763,9 @@ a {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .oursponsors h1 {
@@ -815,12 +819,13 @@ a {
 }
 
 footer {
-  height: 252px;
+  height: 200px;
   background: #202020;
 }
 
 .footer-links {
-  padding-top: 85px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   margin-left: 70px;
 }
 
@@ -842,7 +847,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 208px;
+  max-width: 160px;
 }
 
 
@@ -860,9 +865,7 @@ footer {
   background-position: center;
   border: none;
   background-repeat: no-repeat;
-  margin: 0 auto;
   text-align: center;
-  display: block;
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
@@ -909,7 +912,7 @@ footer {
 }
 
 .footer-info__logo {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .footer-info__list {
@@ -925,16 +928,15 @@ footer {
 }
 
 .footer-mailing__button {
-  width: 200px;
+  width: 160px;
   height: 50px;
   background-color: #c5b575;
-  border-radius: 10px;
+  border-radius: 15px;
   border: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0;
-  margin-top: 36px;
+  margin: 0 auto;
   font-family: 'myFirstFont';
   font-style: normal;
   font-weight: bold;
@@ -947,10 +949,10 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: #ffffff;
-  margin-left: 50px;
   cursor: pointer;
+  float: left;
 }
 
 .footer-mailing__button::after {
@@ -961,13 +963,14 @@ footer {
 }
 
 .footer-mailing__button:hover {
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
 }
 
 .footer-mailing {
   width: 200px;
-  margin-top: 72px;
+  margin-top: 20px;
   height: 50px;
 }
 
@@ -1264,7 +1267,6 @@ textarea {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
