@@ -5,8 +5,14 @@
   fill: #1f1f1f;
   border-radius: 4px;
 }
+
+.customers__icon:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
 main{
-  background-color: #252525;
+  background-color: #212121;
 }
 
 @font-face {
@@ -60,6 +66,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #212121;
   font-family: 'myFirstFont';
 }
 
@@ -428,12 +435,13 @@ a {
 
 .hero__buttonorder {
   background-color: #e8d58c;
+  width: 150px;
+  height: 50px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
-  
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px 35px;
   border: none;
   outline: none;
@@ -458,6 +466,7 @@ a {
 
 .buttonorder1{
   color: #000000;
+  margin: 0 auto;
 }
 .privileges {
   background-color: #272727;
@@ -545,6 +554,8 @@ a {
   height: 70px;
   background-color: #00000080;
   backdrop-filter: blur(5px);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .ouroccupation__text p {
@@ -562,6 +573,7 @@ a {
 }
 
 .ouroccupation__list {
+  border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,6 +590,7 @@ a {
   margin-left: 0px;
   position: relative;
   box-shadow: #00000075 0px 0px 20px;
+  border-radius: 15px;
 }
 
 .ouroccupation__item:last-child {
@@ -585,7 +598,7 @@ a {
 }
 
 .ourcustomers {
-  background-color: rgb(37, 37, 37);
+  background-color: #212121;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -748,7 +761,7 @@ a {
 }
 
 .sponsors_h1 {
-  background-color: rgb(37, 37, 37);
+  background-color: #212121;
   color: #e8d58c;
   text-align: center;
   padding-bottom: 40px;
@@ -760,12 +773,12 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 30px;
   margin-left: 120px;
   margin-right: 120px;
+  margin-bottom: 40px;
 }
 
 .oursponsors h1 {
@@ -820,7 +833,7 @@ a {
 
 footer {
   height: 200px;
-  background: #202020;
+  background: #1d1d1d;
 }
 
 .footer-links {
@@ -1249,6 +1262,7 @@ textarea {
 }
 
 .mySlides {
+  border-radius: 15px;
   display: none;
 }
 
