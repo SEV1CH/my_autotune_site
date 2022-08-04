@@ -4,6 +4,8 @@
   height: 92px;
   fill: #1f1f1f;
   border-radius: 4px;
+  transform: scale(1.00);
+  transition: 0.2s;
 }
 
 .customers__icon:hover {
@@ -456,6 +458,8 @@ a {
           align-items: center;
   text-align: center;
   color: #212121;
+  transform: scale(1.00);
+  transition: 0.2s;
 }
 
 .hero__buttonorder:hover{
@@ -580,17 +584,19 @@ a {
   margin-left: 0px;
 }
 
-.ouroccupation__item:hover{
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
 .ouroccupation__item {
   margin: auto;
   margin-left: 0px;
   position: relative;
   box-shadow: #00000075 0px 0px 20px;
   border-radius: 15px;
+  transform: scale(1.00);
+  transition: 0.2s;
+}
+
+.ouroccupation__item:hover{
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .ouroccupation__item:last-child {
@@ -644,6 +650,8 @@ a {
   margin-left: 0px;
   border-radius: 10px;
   box-shadow:#00000079 0px 0px 20px;
+  transform: scale(1.00);
+  transition: 0.2s;
 }
 
 .customers__item:hover{
@@ -966,6 +974,8 @@ footer {
   color: #ffffff;
   cursor: pointer;
   float: left;
+  transform: scale(1.00);
+  transition: 0.2s;
 }
 
 .footer-mailing__button::after {
@@ -1114,13 +1124,10 @@ textarea {
 }
 
 .form-field__input:focus + .form-field__label {
-  /*СВОЙСТВА ПЕРЕНОСА LABEL ПРИ FOCUS*/
   color: #e8d58c;
   fill: #e8d58c;
   position: absolute;
   left: 40px;
-  /* transform: translateY(-32px); */
-  /* transition: transform 500ms linear; */
 }
 
 .form-field {
