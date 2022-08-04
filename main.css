@@ -268,9 +268,7 @@ a {
 
 .hero {
   background-image: url(./images/bckhero.jpg);
-  min-height: 500px;
   background-size: 110%;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   flex-wrap: wrap;
 }
