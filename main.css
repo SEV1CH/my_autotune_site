@@ -377,7 +377,7 @@ a {
 }
 
 .property__item:nth-child(2)::before {
-  content: url(./images/Group2.png);
+  content: url(./images/group2.svg);
 }
 
 .property__item:nth-child(3)::before {
