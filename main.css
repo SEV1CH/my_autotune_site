@@ -297,7 +297,7 @@ a {
   flex-wrap: wrap;
 }
 
-.hero__buttonorder {
+.hero-buttonorder {
   background-color: #e8d58c;
   width: 150px;
   height: 50px;
@@ -324,17 +324,17 @@ a {
   transition: 0.2s;
 }
 
-.hero__buttonorder:hover{
+.hero-buttonorder:hover{
   background-color: #bdae73;
   transform: scale(1.05);
   transition: 0.2s;
 }
 
-.hero__buttonorder:hover .backdrop is-hidden {
+.hero-buttonorder:hover .backdrop is-hidden {
   opacity: 1;
 }
 
-.buttonorder1{
+.hero-buttonorder1{
   color: #000000;
   margin: 0 auto;
 }
