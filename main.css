@@ -61,13 +61,17 @@ a {
 
 .header {
   background-color: #212121;
-  max-height: 80px;
+  height: 80px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   flex-wrap: wrap;
+}
+
+.header.ourworks {
+  height: 72px;
 }
 
 .header-meta {
@@ -121,8 +125,8 @@ a {
   position: relative;
 }
 
-.header-meta__item.current {
-  color: #757575;
+.header-meta__item.on-page a {
+  color: #757575
 }
 
 .header-meta__item:hover {
@@ -891,6 +895,14 @@ footer {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  transform: scale(1);
+  transition: 0.2s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+}
+
+.column img:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 800px) {
