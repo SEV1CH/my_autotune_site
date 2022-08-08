@@ -291,8 +291,9 @@ a {
 }
 .privileges {
   background-color: #272727;
-  height: 500px;
+  height: 470px;
   padding-top: 1px;
+  text-align: center;
   flex-wrap: wrap;
 }
 
@@ -321,9 +322,7 @@ a {
 }
 
 .privileges-icons {
-  max-width: 200px;
-  max-height: 90px;
-  margin: 10px;
+  height: 90px;
 }
 
 .privileges-item > p {
@@ -331,6 +330,7 @@ a {
   margin-top: 10px;
   color: #b8b8b8;
   font-size: 14px;
+  text-align: left;
   line-height: 171%;
   letter-spacing: 0.03em;
 }
