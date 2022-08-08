@@ -2,40 +2,8 @@
 
 main{
   background-color: #212121;
-}
-
-@font-face {
-  font-family: 'myFirstFont';
-  src: url(./font/Ubuntu-B.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'mySecondFont';
-  src: url(./font/Codec-Cold-ExtraBold-trial.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'myThirdFont';
-  src: url(./font/Ubuntu-L.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'my4Font';
-  src: url(./font/Raleway-ExtraBold.ttf);
-  font-weight: bold;
-}
-
-.footer-info__item, .footer-info__item1 {
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  margin-top: 9px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
 
 *,
@@ -56,24 +24,22 @@ html {
 body {
   margin: 0;
   background-color: #212121;
-  font-family: 'myFirstFont';
 }
 
 button {
-  font-family: 'myFirstFont';
-  font-size: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
   line-height: 1.15;
   margin: 0;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 p,
 li {
-  font-family: 'myFirstFont';
+  font-family: 'Ubuntu', sans-serif;;
   margin: 0;
 }
 
@@ -90,13 +56,17 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  font-family: 'mySecondFont';
   flex-wrap: wrap;
 }
 
 .header {
   background-color: #212121;
   max-height: 80px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   flex-wrap: wrap;
 }
 
@@ -111,9 +81,9 @@ a {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1200px;
-  text-align: end;
   padding-top: 15px;
   padding-bottom: 25px;
+  text-align: end;
   flex-wrap: wrap;
 }
 
@@ -121,16 +91,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   min-width: 294px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: 'myFirstFont';
   flex-wrap: wrap;
 }
 
@@ -178,12 +142,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: #757575;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -225,12 +183,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: #757575;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -275,16 +227,16 @@ a {
 
 .hero h1 {
   max-width: 696px;
-  text-align: center;
-  font-family: 'mySecondFont';
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
   padding-top: 200px;
   margin: 0 auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #ffffff;
   text-shadow: #000000c9 0px 0px 20px;
   flex-wrap: wrap;
 }
@@ -301,15 +253,14 @@ a {
   background-color: #e8d58c;
   width: 150px;
   height: 50px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 10px 35px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
   border: none;
   outline: none;
-  font-family: url(./font/Ubuntu-B.ttf);
   font-size: 18px;
   line-height: 30px;
   display: -webkit-box;
@@ -348,9 +299,6 @@ a {
 .privileges-item h1 {
   width: 270px;
   height: 16px;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -382,9 +330,6 @@ a {
   max-width: 270px;
   margin-top: 10px;
   color: #b8b8b8;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
@@ -397,17 +342,14 @@ a {
 }
 
 .ouroccupation h1 {
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: bold;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #e8d58c;
-  margin-top: 0px;
-  padding-top: 40px;
-  padding-bottom: 30px;
   flex-wrap: wrap;
 }
 
@@ -425,9 +367,6 @@ a {
 
 .ouroccupation-text p {
   padding-top: 27px;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: bold;
   font-size: 20px;
   line-height: 16px;
   text-align: center;
@@ -478,15 +417,12 @@ a {
   padding-bottom: 50px;
   padding-top: 50px;
   max-width: 500px;
-  font-family: 'mySecondFont';
-  font-style: normal;
-  font-weight: bold;
+  margin: 0 auto;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #e8d58c;
-  margin: 0 auto;
   flex-wrap: wrap;
 }
 
@@ -539,10 +475,7 @@ a {
 .customers-item > h1 {
   margin-left: 0px;
   margin-top: 30px;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -551,10 +484,8 @@ a {
 
 .customers-item > p {
   margin-top: 10px;
-  font-family: 'myThirdFont';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -575,20 +506,19 @@ a {
 }
 
 .social-links__button {
-  display: block;
-  text-align: center;
-  background-color: #313131;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  background-position: center;
-  border: none;
-  background-repeat: no-repeat;
-  margin: 0 auto;
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 12px;
+  display: block;
+  text-align: center;
+  background-color: #313131;
+  border-radius: 50%;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
   flex-wrap: wrap;
 }
 
@@ -662,9 +592,6 @@ a {
 }
 
 .sponsors h1 {
-  font-family: 'mySecondFont';
-  font-style: normal;
-  font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -739,7 +666,6 @@ a {
 
 .slideshow-text {
   color: #f2f2f2;
-  font-family: Verdana;
   font-size: 24px;
   padding: 8px 12px;
   position: absolute;
@@ -784,6 +710,8 @@ a {
 footer {
   height: 200px;
   background: #1d1d1d;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
 
 .footer-links {
@@ -793,8 +721,6 @@ footer {
 }
 
 .footer-links h1 {
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -891,19 +817,23 @@ footer {
   color: #E5E5E5;
 }
 
+.footer-info__item, .footer-info__item1 {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-top: 9px;
+}
+
 .footer-mailing__button {
   width: 160px;
   height: 50px;
+  margin: 0 auto;
   background-color: #c5b575;
   border-radius: 15px;
   border: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto;
-  font-family: 'myFirstFont';
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   display: -webkit-box;
