@@ -426,12 +426,6 @@ a {
   flex-wrap: wrap;
 }
 
-.slideshow {
-  background-color: #212121;
-  height: 800px;
-  flex-wrap: wrap;
-}
-
 .customers-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,6 +644,12 @@ a {
 
 * {box-sizing:border-box}
 
+.slideshow {
+  background-color: #212121;
+  height: 800px;
+  flex-wrap: wrap;
+}
+
 .slideshow-container {
   max-width: 1200px;
   position: relative;
@@ -673,13 +673,13 @@ a {
   width: 100%;
   text-align: center;
   padding-bottom: 20px;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 0px 1px 3px #000000;
 }
 
 .slideshow-number {
   color: #f2f2f2;
   font-size: 16px;
-  text-shadow: 0px 2px 0px #000000;
+  text-shadow: 0px 1px 3px #000000;
   padding: 8px 12px;
   position: absolute;
   top: 0;
