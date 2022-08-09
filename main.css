@@ -331,6 +331,7 @@ a {
 
 .privileges-icons {
   height: 90px;
+  max-width: 200px;
 }
 
 .privileges-item > p {
