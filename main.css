@@ -581,16 +581,17 @@ a {
 }
 
 .sponsors {
+  width: 73%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 40px;
+
   background-color: #e8d58c;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 30px;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 40px;
   flex-wrap: wrap;
 }
 
@@ -615,18 +616,15 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
-  padding-top: 10px;
   padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
   flex-wrap: wrap;
-}
-
-.sponsors-list li:not(:last-child) {
-  margin-right: 30px;
+  justify-content: space-around;
 }
 
 .sponsors-icon {
-  width: 170px;
+  width: 150px;
   height: 92px;
   fill: #1f1f1f;
   border-radius: 4px;
@@ -699,14 +697,16 @@ a {
   border-radius: 15px;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+@keyframes fade {
+  from {-webkit-filter: blur(4px);
+        opacity: 0.5;}
+  to {-webkit-filter: blur(0px);
+        opacity: 1;}
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
 }
 
 .footerparent {
