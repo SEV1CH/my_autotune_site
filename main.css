@@ -283,7 +283,6 @@ a {
 }
 .privileges {
   background-color: #272727;
-  height: 470px;
   padding-top: 1px;
   text-align: center;
   flex-wrap: wrap;
@@ -318,6 +317,7 @@ a {
 .privileges-item > p {
   max-width: 270px;
   margin-top: 10px;
+  margin-bottom: 50px;
   color: #b8b8b8;
   font-size: 14px;
   text-align: left;
@@ -327,7 +327,6 @@ a {
 
 .ouroccupation {
   background-color: #212121;
-  height: 480px;
   flex-wrap: wrap;
 }
 
@@ -375,6 +374,7 @@ a {
 .ouroccupation-item {
   margin: auto;
   margin-left: 0px;
+  margin-bottom: 50px;
   position: relative;
   box-shadow: #00000075 0px 0px 20px;
   border-radius: 15px;
