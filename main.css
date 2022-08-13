@@ -74,12 +74,15 @@ a {
 .header-meta {
   display: flex;
   width: 100%;
-  justify-content: center;
   justify-content: space-between;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
   flex-wrap: wrap;
+}
+
+.company-logo {
+  max-width: 145px;
 }
 
 .header-meta__list {
@@ -714,10 +717,6 @@ footer {
 .footer-info {
   margin: 30px;
   margin-bottom: 0px;
-}
-
-.footer-info__list {
-  margin-top: 25px;
 }
 
 .footer-info__item {
