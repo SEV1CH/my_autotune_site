@@ -234,15 +234,13 @@ a {
   height: 50px;
   margin: auto;
   margin-top: 20px;
-  padding: 10px 35px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
   border: none;
   outline: none;
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
   color: #212121;
   transform: scale(1.00);
   transition: 0.2s;
@@ -252,11 +250,6 @@ a {
   background-color: #bdae73;
   transform: scale(1.05);
   transition: 0.2s;
-}
-
-.buttonorder-text{
-  color: #000000;
-  margin: 0 auto;
 }
 
 .privileges {
