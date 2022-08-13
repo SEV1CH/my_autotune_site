@@ -79,7 +79,7 @@ a {
 }
 
 .header.ourworks {
-  height: 72px;
+  margin-bottom: -5px;
 }
 
 @media screen and (min-width: 1200px){
@@ -105,13 +105,21 @@ a {
 
 @media screen and (max-width: 499px){
   .company-logo {
-    width: 200px;  
+    width: 250px;  
+  }
+
+  .header-meta__list a {
+    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 500px){
   .company-logo {
     width: 150px;
+  }
+
+  .header-meta__list a {
+    font-size: 14px;
   }
 }
 
@@ -237,12 +245,12 @@ a {
 }
 
 .hero h1 {
-  margin: auto;
+  padding-top: 190px;
+  align-items: center;
   text-align: center;
-  padding-top: 180px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  font-size: 44px;
+  font-size: 50px;
   line-height: 60px;
   letter-spacing: 0.10em;
   text-transform: uppercase;
