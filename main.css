@@ -105,13 +105,13 @@ a {
 
 @media screen and (max-width: 499px){
   .company-logo {
-    max-width: 200px;  
+    width: 200px;  
   }
 }
 
 @media screen and (min-width: 500px){
   .company-logo {
-    max-width: 150px;  
+    width: 150px;
   }
 }
 
