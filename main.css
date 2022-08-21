@@ -262,6 +262,7 @@ a {
 .hero-overlay {
   height: 600px;
   background: rgba(37, 37, 37, 0.459);
+  align-items: center;
 }
 
 .hero-buttonorder {
@@ -765,6 +766,10 @@ footer {
 @media screen and (max-width: 1199px){
   .footerparent {
     justify-content: center;
+  }
+  
+  .footer-info__item, .footer-info__item1 {
+    text-align: center;
   }
 }
 
